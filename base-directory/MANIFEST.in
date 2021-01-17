@@ -1,0 +1,7 @@
+# example code for MANIFEST.in from https://docs.djangoproject.com/en/3.1/into/reusable-apps/
+
+include LICENSE
+include README.txt
+recursive-include base/static *
+recursive-include base/templates *
+recursive-include docs
